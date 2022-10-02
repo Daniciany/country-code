@@ -32,10 +32,10 @@ const country3 = findCountryFromAlpha3("USA")
 const country4 = findCountryFromAlpha3("usa")
 // returns "United States of America
 
-const country4 = findCountryFromUN("840")
+const country5 = findCountryFromUN("840")
 // returns "United States of America
 
-const country4 = findCountryFromAlpha3(840)
+const country6 = findCountryFromAlpha3(840)
 // returns "United States of America
 
 
