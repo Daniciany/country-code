@@ -1,0 +1,29 @@
+{
+  "name": "coodes-country-codes",
+  "version": "1.1.3",
+  "description": "get Country from alpha2, alpha3 or UN (numeric) codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniciany/country-code.git"
+  },
+  "keywords": [
+    "country-code",
+    "country-codes",
+    "countries",
+    "countries-code",
+    "countries-codes",
+    "coodes",
+    "codes-of-country",
+    "codes-of-countries"
+  ],
+  "author": "Danician",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniciany/country-code/issues"
+  },
+  "homepage": "https://github.com/Daniciany/country-code#readme"
+}
