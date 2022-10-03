@@ -41,4 +41,4 @@ const country6 = findCountryFromAlpha3(840)
 
 # Note: 
 - every function returns a country by its english name if it exists in the international country codes
-- if a country is **not** included in the internation country codes, then every function returns **undefined**
+- if a country is **not** included in the international country codes, then every function returns **undefined**
