@@ -1,6 +1,6 @@
 {
   "name": "coodes-country-codes",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "get Country from alpha2, alpha3 or UN (numeric) codes",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,11 @@
     "countries-codes",
     "coodes",
     "codes-of-country",
-    "codes-of-countries"
+    "codes-of-countries",
+    "codes", 
+    "code",
+    "country-data",
+    "countries-data"
   ],
   "author": "Danician",
   "license": "ISC",
