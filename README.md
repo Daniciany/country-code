@@ -18,11 +18,11 @@ accepts UN-code (3 numbers) as a **string** or as an **integer**
 
 #### For the following functions:
 functions accepts strings of any form, don't worry about capitalization like "United States" or "united states", "United states", "united States", ...
-#### 4.: findAlpha2FromCountry(country)
+##### 4.: findAlpha2FromCountry(country)
 
-#### 5.: findAlpha3FromCountry(country)
+##### 5.: findAlpha3FromCountry(country)
 
-#### 6.: findUNFromCountry(country) 
+##### 6.: findUNFromCountry(country) 
 
 
 ## example:
