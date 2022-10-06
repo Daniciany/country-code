@@ -280,6 +280,8 @@ function isLowerCase(input) {
 }
 
 function findCountryFromAlpha2(alpha2) {
+    if (country === undefined) return undefined
+
     if (isLowerCase(alpha2)) {
         alpha2 = alpha2.toUpperCase()
     }
@@ -295,6 +297,8 @@ function findCountryFromAlpha2(alpha2) {
 }
 
 function findCountryFromAlpha3(alpha3) {
+    if (country === undefined) return undefined
+
     if (isLowerCase(alpha3)) {
         alpha3 = alpha3.toUpperCase()
     }
