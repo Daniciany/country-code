@@ -301,13 +301,10 @@ function findCountryFromAlpha2(alpha2) {
         alpha2 = alpha2.toUpperCase()
     }
 
-    let i
-    const countriesLength = countries.length
-    for (i = 0; i < countriesLength; i++) {
-        if (countries[i][1] === alpha2) {
-            return countries[i][0]
-        }
-    }
+    const elementArr = countries.find(subArr => subArr[1] === alpha2)
+
+    if (elementArr != undefined) return elementArr[0]
+    
     return 
 }
 
@@ -318,26 +315,20 @@ function findCountryFromAlpha3(alpha3) {
         alpha3 = alpha3.toUpperCase()
     }
 
-    let i
-    const countriesLength = countries.length
-    for (i = 0; i < countriesLength; i++) {
-        if (countries[i][2] === alpha3) {
-            return countries[i][0]
-        }
-    }
+    const elementArr = countries.find(subArr => subArr[2] === alpha3)
+
+    if (elementArr != undefined) return elementArr[0]
+    
     return 
 }
 
 function findCountryFromUN(UNcode) {
     if (UNcode === undefined) return 
 
-    let i
-    const countriesLength = countries.length
-    for (i = 0; i < countriesLength; i++) {
-        if (countries[i][3] == UNcode) {
-            return countries[i][0]
-        }
-    }
+    const elementArr = countries.find(subArr => subArr[3] == UNcode)
+
+    if (elementArr != undefined) return elementArr[0]
+    
     return 
 }
 
@@ -347,13 +338,10 @@ function findAlpha2FromCountry(country) {
     // if first letter is lower case, then make it upper case
     country = turnInputToDataFormat(country)
 
-    let i
-    const countriesLength = countries.length
-    for (i = 0; i < countriesLength; i++) {
-        if (countries[i][0] == country) {
-            return countries[i][1]
-        }
-    }
+    const elementArr = countries.find(subArr => subArr[0] === country)
+
+    if (elementArr != undefined) return elementArr[1]
+    
     return 
 }
 
@@ -363,13 +351,10 @@ function findAlpha3FromCountry(country) {
     // if first letter is lower case, then make it upper case
     country = turnInputToDataFormat(country)
 
-    let i
-    const countriesLength = countries.length
-    for (i = 0; i < countriesLength; i++) {
-        if (countries[i][0] === country) {
-            return countries[i][2]
-        }
-    }
+    const elementArr = countries.find(subArr => subArr[0] === country)
+
+    if (elementArr != undefined) return elementArr[2]
+    
     return 
 }
 
@@ -379,14 +364,11 @@ function findUNFromCountry(country) {
     // if first letter is lower case, then make it upper case
     country = turnInputToDataFormat(country)
 
-    let i
-    const countriesLength = countries.length
-    for (i = 0; i < countriesLength; i++) {
-        if (countries[i][0] === country) {
-            return countries[i][3]
-        }
-    }
-    return 
+    const elementArr = countries.find(subArr => subArr[0] === country)
+
+    if (elementArr != undefined) return elementArr[3]
+    
+    return  
 }
 
 exports.findCountryFromAlpha2 = findCountryFromAlpha2

@@ -1,6 +1,6 @@
 # coodes - country-codes
 
-## current Version features 3 new functions! 
+## new Update -> performance is now blazingly fast...
 we recommend using the newest Version, though every other version still works 100% fine...
 
 ## functions: 

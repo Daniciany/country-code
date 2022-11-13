@@ -1,6 +1,6 @@
 {
   "name": "coodes-country-codes",
-  "version": "1.2.2",
+  "version": "1.2.4",
   "description": "get Country from alpha2, alpha3 or UN (numeric) codes",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/Daniciany/country-code/issues"
   },
-  "homepage": "https://github.com/Daniciany/country-code#readme"
+  "homepage": "https://coodes.netlify.app/"
 }
