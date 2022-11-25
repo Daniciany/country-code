@@ -1,7 +1,10 @@
 # coodes - country-codes
 
 ## new Update -> performance is now blazingly fast...
-we recommend using the newest Version, though every other version still works 100% fine...
+
+## brand new version 1.2.6 upcoming...
+
+## shout out to [He1senberg31415](https://github.com/He1senberg31415)!
 
 ## functions: 
 ### coodes provides **6** functions
